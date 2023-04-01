@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="script" href="script.js">
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Sofia">
+        <script src="https://kit.fontawesome.com/37a76c1c48.js"
+            crossorigin="anonymous"></script>
+
+    </head>
+    <body class="BODY">
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="images/logo.png" class="logo">
+                    <ul id="sidemenu">
+                        <li> <a href='#header'> Home </a></li>
+                        <li> <a href='#about'> About Me </a></li>
+                        <li> <a href='#services'> My Services </a></li>
+                        <li> <a href='#portfolio'> Portfolio </a></li>
+                        <li> <a href='#contact'> Contact Me </a></li>
+                        <i class="fas fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+
+                    <h1 class="typed"> Hi, I'm Aditya kumar</h1>
+                    <p class="typed"> Welcome to My Portfolio </p>
+                </div>
+            </div>
+        </div>
+        <!-- About section-->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1"> <img class="aboutimg"
+                            src="images/355-3550657_icon-about-me-png-removebg-preview.png"
+                            width="598px" height="417px"></div>
+                    <div class="about-col-2">
+                        <h1 class="subtitle">
+                            About Me
+                        </h1>
+                        <p>
+                            I am Aditya kumar, Studying in Indian Institute of
+                            information Technology, Surat, Gujarat.
+
+                        </p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link"
+                                onclick="opentab('Skills')">Skills:</p>
+                            <p class="tab-links"
+                                onclick="opentab('Experience')">Experience:</p>
+                            <p class="tab-links" onclick="opentab('Education')">Education:</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="Skills">
+                            <ul>
+                                <li> <span> C</span>/<span>C</span>++</li>
+                                <li> <span> H</span>TML</li>
+                                <li> <span> C</span>SS</li>
+                                <li> <span> M</span>icrosoft Word</li>
+                                <li> <span> M</span>icrosoft Excel</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents " id="Experience">
+                            <ul>
+                                <li> 6 Months in C/C++</li>
+                                <li> 3 Years in HTML</li>
+                                <li> 2 Months in CSS</li>
+                                <li> 6 Years in Microsoft Word</li>
+                                <li> 4 Years Microsoft Excel</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Education">
+                            <ul>
+                                <li> St. Xavier's High School </li>
+                                <li> Holy Mission High School </li>
+                                <li> Indian Institute of Information Technology,<br>
+                                    Surat, Gujarat</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!----services----->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+
+                    <div>
+                        <i class="fa-brands fa-codepen"></i>
+                        <h2> Web Development </h2>
+                        <i class="fa-light fa-browser fa-beat"></i>
+                        <p> I can make beautiful website like it.</p>
+                        <a href="#"> Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2> Software Development </h2>
+                        <p> I can make highly functional and Optmised Softwares.</p>
+                        <a href="#"> Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-app-store"></i>
+                        <h2> App Development </h2>
+                        <p> I can make awesome useful feature rich android and
+                            ios apps.</p>
+                        <a href="#"> Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio-->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/webdev.png" height="99.1%">
+                        <div class="layer">
+                            <h2>Website Development</h2>
+                            <p> I have exhaustive experience in website
+                                development. Throughout my career, I have gained
+                                extensive expertise in website development. I
+                                have worked on various projects ranging from
+                                simple static websites to complex dynamic web
+                                applications, using a variety of programming
+                                languages, frameworks, and tools.
+                            </p>
+                            <a href="#"> <i class="fa-solid
+                                    fa-arrow-up-right-from-square"></i> </a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/Screenshot 2023-03-28 235550.png"
+                            height="99%">
+                        <div class="layer">
+                            <h2>Software Development</h2>
+                            <p> I have decent experience in C/C++, Python so can
+                                develop Software. I have developed a strong
+                                foundation in software development. Over the
+                                years, I have worked on various software
+                                development projects and gained hands-on
+                                experience in developing both desktop and
+                                web-based applications.
+
+                                My proficiency in C/C++ has allowed me to
+                                develop high-performance software applications
+                                for a variety of purposes, ranging from system
+                                programming to game development. Additionally,
+                                my expertise in Python has enabled me to develop
+                                software solutions for data analysis, machine
+                                learning, and scientific computing. </p>
+                            <a href="#"> <i class="fa-solid
+                                    fa-arrow-up-right-from-square"></i> </a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/appp.png" height="98.9%">
+                        <div class="layer">
+                            <h2>App Development</h2>
+                            <p> I have App development experience. My experience
+                                in app development has equipped me with the
+                                skills and knowledge necessary to create
+                                innovative and user-friendly mobile applications
+                                for a variety of platforms, including iOS and
+                                Android.
+
+                                Using tools and programming languages such as
+                                Swift, Objective-C, Java, and Kotlin. </p>
+                            <a href="#"> <i class="fa-solid
+                                    fa-arrow-up-right-from-square"></i> </a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn"> See More</a>
+            </div>
+        </div>
+        <!--- Contact Me-->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-envelope"></i>
+                            aditya152003@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i> +91 9119267828</p>
+                        <div class="social-icon">
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a
+                                href="www.linkedin.com/in/aditya-kumar-483aba159"><i
+                                    class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                        <a href="images/ADITYA's Resume.pdf" download class="btn
+                            btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right"></div>
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name"
+                            required>
+                        <input type="email" name="email" placeholder="Your
+                            Email" required>
+                        <textarea name="Message" rows="6" placeholder="Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+
+                </div>
+                <div class="copyright">
+                    <p> Copyright Ⓒ with Addy Learning Corporation. Made with
+                        lots of <i class="fa-solid fa-heart fa-beat"> </i> by
+                        Aditya kumar. </p>
+                </div>
+            </div>
+        </div>
+        <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+        <script>
+        var sidemen = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemen.style.right = "0";
+        }
+        function closemenu(){
+            sidemen.style.right = "-200px";
+        }
+    </script>
+    </body>
+</html>
